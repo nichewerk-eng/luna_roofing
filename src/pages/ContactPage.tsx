@@ -120,7 +120,7 @@ export const ContactPage = () => {
 						},
 						aggregateRating: {
 							"@type": "AggregateRating",
-							ratingValue: "4.9",
+							ratingValue: "5",
 							bestRating: "5",
 							ratingCount: "127",
 						},

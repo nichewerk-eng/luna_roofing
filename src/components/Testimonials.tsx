@@ -61,7 +61,7 @@ export function Testimonials() {
 								/>
 							))}
 						</div>
-						<span className="text-lg">4.9/5 Rating • 500+ Reviews</span>
+						<span className="text-lg">5 Rating Reviews</span>
 					</div>
 				</div>
 

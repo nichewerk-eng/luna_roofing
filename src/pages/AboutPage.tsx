@@ -74,7 +74,7 @@ const whyChooseUs = [
 		icon: Star,
 		title: "Top-Rated Reviews",
 		description:
-			"4.9/5 stars on Google with hundreds of verified reviews from happy Texas homeowners.",
+			"5 stars on Google with many of verified reviews from happy Texas homeowners.",
 	},
 	{
 		icon: Wrench,
