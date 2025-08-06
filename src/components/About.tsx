@@ -10,7 +10,7 @@ import {
 	Home,
 	Phone,
 } from "lucide-react";
-import { useState, useEffect } from "react";
+import React from "react";
 
 const whyChooseUs = [
 	{

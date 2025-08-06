@@ -55,14 +55,8 @@ export default function App() {
 						path="/wills-point-roofing"
 						element={<WillsPointRoofingPage />}
 					/>
-					<Route
-						path="/terrell-roofing"
-						element={<TerrellRoofingPage />}
-					/>
-					<Route
-						path="/forney-roofing"
-						element={<ForneyRoofingPage />}
-					/>
+					<Route path="/terrell-roofing" element={<TerrellRoofingPage />} />
+					<Route path="/forney-roofing" element={<ForneyRoofingPage />} />
 				</Routes>
 				<Analytics />
 				<Toaster position="top-right" richColors closeButton duration={5000} />
