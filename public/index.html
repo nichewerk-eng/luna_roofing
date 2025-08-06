@@ -1,43 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+<html lang="en" itemscope itemtype="https://schema.org/LocalBusiness">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="theme-color" content="#dc2626" />
+		
+		<!-- Enhanced Meta Description -->
+		<meta
+			name="description"
+			content="Luna's Roofing LLC - #1 Wills Point roofing contractor. Expert residential & commercial roofing in Terrell, Forney, Canton & Kaufman TX. 24/7 emergency service, licensed & insured. Free estimates!"
+		/>
+		
+		<!-- Keywords -->
+		<meta 
+			name="keywords" 
+			content="Wills Point roofer, Terrell roofing contractor, Forney roof repair, Canton roofing company, Kaufman emergency roofing, East Texas roofer, residential roofing, commercial roofing, roof replacement, storm damage repair, licensed roofer Texas"
+		/>
+		
+		<!-- Author and Business Info -->
+		<meta name="author" content="Luna's Roofing LLC" />
+		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+		<meta name="googlebot" content="index, follow" />
+		
+		<!-- Geographic Targeting -->
+		<meta name="geo.region" content="US-TX" />
+		<meta name="geo.placename" content="Wills Point, Texas" />
+		<meta name="geo.position" content="32.7096;-96.0082" />
+		<meta name="ICBM" content="32.7096, -96.0082" />
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="business.business" />
+		<meta property="og:title" content="Luna's Roofing LLC - #1 Wills Point Roofing Contractor" />
+		<meta property="og:description" content="Expert roofing services in Wills Point, Terrell, Forney, Canton & Kaufman TX. Licensed & insured with 24/7 emergency service. Get your free estimate today!" />
+		<meta property="og:url" content="https://www.lunasroofingllc.com" />
+		<meta property="og:site_name" content="Luna's Roofing LLC" />
+		<meta property="og:image" content="%PUBLIC_URL%/luna_roofing_logo.png" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:locale" content="en_US" />
+		<meta property="business:contact_data:street_address" content="Wills Point" />
+		<meta property="business:contact_data:locality" content="Wills Point" />
+		<meta property="business:contact_data:region" content="TX" />
+		<meta property="business:contact_data:postal_code" content="75169" />
+		<meta property="business:contact_data:country_name" content="United States" />
+		<meta property="business:contact_data:phone_number" content="+19033409354" />
+		
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Luna's Roofing LLC - #1 Wills Point Roofing Contractor" />
+		<meta name="twitter:description" content="Expert roofing services in East Texas. Licensed & insured with 24/7 emergency service." />
+		<meta name="twitter:image" content="%PUBLIC_URL%/luna_roofing_logo.png" />
+		
+		<!-- Canonical URL -->
+		<link rel="canonical" href="https://www.lunasroofingllc.com" />
+		
+		<!-- Apple Touch Icons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/luna_roofing_logo.png" />
+		<link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon.ico" />
+		<link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon.ico" />
+		
+		<!-- Manifest -->
+		<link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+		
+		<!-- Preconnect to external domains -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		
+		<!-- Schema.org JSON-LD -->
+		<script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "RoofingContractor",
+			"@id": "https://www.lunasroofingllc.com/#business",
+			"name": "Luna's Roofing LLC",
+			"alternateName": "Luna's Roofing",
+			"description": "Professional roofing contractor serving Wills Point, Terrell, Forney, Canton, and Kaufman TX with residential and commercial roofing services, emergency repairs, and insurance claim assistance.",
+			"url": "https://www.lunasroofingllc.com",
+			"logo": "https://www.lunasroofingllc.com/luna_roofing_logo.png",
+			"image": "https://www.lunasroofingllc.com/luna_roofing_logo.png",
+			"telephone": "(903) 340-9354",
+			"email": "ram@lunasroofingllc.com",
+			"address": {
+				"@type": "PostalAddress",
+				"addressLocality": "Wills Point",
+				"addressRegion": "TX",
+				"postalCode": "75169",
+				"addressCountry": "US"
+			},
+			"geo": {
+				"@type": "GeoCoordinates",
+				"latitude": 32.7096,
+				"longitude": -96.0082
+			},
+			"areaServed": [
+				{
+					"@type": "City",
+					"name": "Wills Point",
+					"addressRegion": "TX"
+				},
+				{
+					"@type": "City", 
+					"name": "Terrell",
+					"addressRegion": "TX"
+				},
+				{
+					"@type": "City",
+					"name": "Forney", 
+					"addressRegion": "TX"
+				},
+				{
+					"@type": "City",
+					"name": "Canton",
+					"addressRegion": "TX"
+				},
+				{
+					"@type": "City",
+					"name": "Kaufman",
+					"addressRegion": "TX"
+				}
+			],
+			"serviceType": [
+				"Roof Replacement",
+				"Roof Repair", 
+				"Emergency Roof Repair",
+				"Roof Maintenance",
+				"Gutter Installation",
+				"Gutter Repair",
+				"Commercial Roofing",
+				"Residential Roofing",
+				"Storm Damage Repair",
+				"Insurance Claim Assistance",
+				"Composition Shingles",
+				"Metal Roofing",
+				"TPO Membrane Roofing"
+			],
+			"priceRange": "$$",
+			"openingHours": ["Mo-Fr 07:00-19:00", "Sa 08:00-17:00"],
+			"hasOfferCatalog": {
+				"@type": "OfferCatalog",
+				"name": "Roofing Services",
+				"itemListElement": [
+					{
+						"@type": "Offer",
+						"itemOffered": {
+							"@type": "Service",
+							"name": "Free Roofing Estimate",
+							"description": "Comprehensive roof inspection and detailed estimate"
+						},
+						"price": "0",
+						"priceCurrency": "USD"
+					},
+					{
+						"@type": "Offer", 
+						"itemOffered": {
+							"@type": "Service",
+							"name": "24/7 Emergency Roofing Service",
+							"description": "Emergency roof repair available around the clock"
+						}
+					}
+				]
+			},
+			"aggregateRating": {
+				"@type": "AggregateRating",
+				"ratingValue": "5.0",
+				"bestRating": "5",
+				"ratingCount": "127"
+			},
+			"sameAs": [
+				"https://maps.app.goo.gl/T8yYyUQDhf5AYk6H6"
+			]
+		}
+		</script>
+		
+		<title>
+			Luna's Roofing LLC - #1 Wills Point Roofer | Terrell, Forney, Canton, Kaufman TX
+		</title>
+	</head>
+	<body>
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="root"></div>
+	</body>
 </html>

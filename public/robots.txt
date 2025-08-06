@@ -1,3 +1,15 @@
-# https://www.robotstxt.org/robotstxt.html
+# Luna's Roofing LLC - robots.txt
 User-agent: *
-Disallow:
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.lunasroofingllc.com/sitemap.xml
+
+# Block crawling of admin/private areas (if any)
+Disallow: /api/
+Disallow: /*.json$
+
+# Allow important files
+Allow: /luna_roofing_logo.png
+Allow: /favicon.ico
+Allow: /manifest.json
