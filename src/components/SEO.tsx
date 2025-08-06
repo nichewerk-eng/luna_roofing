@@ -10,8 +10,8 @@ interface SEOProps {
 }
 
 export function SEO({
-	title = "Luna's Roofing LLC - #1 Wills Point Roofer",
-	description = "Expert roofing services in Wills Point, Terrell, Forney, Canton & Kaufman TX. Licensed & insured with 24/7 emergency service. Free estimates!",
+	title = "Wills Point's Most Trusted Roofing Contractor - Luna's Roofing LLC",
+	description = "Luna's Roofing LLC protects families in Wills Point, Terrell, Forney, Canton, and Kaufman with professional craftsmanship, honest pricing, and unmatched warranty coverage. 24/7 emergency service available!",
 	keywords = "Wills Point roofer, Terrell roofing contractor, Forney roof repair, Canton roofing company, Kaufman emergency roofing",
 	canonical,
 	ogImage = "/luna_roofing_logo.png",
@@ -45,6 +45,14 @@ export function SEO({
 		updateMeta("og:title", title, true);
 		updateMeta("og:description", description, true);
 		updateMeta("og:image", ogImage, true);
+		updateMeta(
+			"og:image:alt",
+			`${title} - Professional Roofing Services`,
+			true
+		);
+		updateMeta("og:image:width", "1200", true);
+		updateMeta("og:image:height", "630", true);
+		updateMeta("og:image:type", "image/png", true);
 		updateMeta("og:type", "website", true);
 		if (canonical) updateMeta("og:url", canonical, true);
 
@@ -53,6 +61,7 @@ export function SEO({
 		updateMeta("twitter:title", title);
 		updateMeta("twitter:description", description);
 		updateMeta("twitter:image", ogImage);
+		updateMeta("twitter:image:alt", `${title} - Professional Roofing Services`);
 
 		// Update canonical link
 		if (canonical) {
