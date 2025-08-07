@@ -15,9 +15,9 @@ import React from "react";
 const whyChooseUs = [
 	{
 		icon: Shield,
-		title: "Licensed & Insured",
+		title: "Insured & Bonded",
 		description:
-			"Fully licensed contractor with comprehensive insurance coverage for your peace of mind.",
+			"Fully insured contractor with comprehensive general liability coverage for your peace of mind.",
 	},
 	{
 		icon: Award,
@@ -53,7 +53,7 @@ const whyChooseUs = [
 
 const stats = [
 	{ number: "Quality", label: "Materials" },
-	{ number: "Licensed", label: "& Insured" },
+	{ number: "Insured", label: "& Bonded" },
 	{ number: "Residential", label: "& Commercial" },
 	{ number: "100%", label: "Customer Satisfaction" },
 ];
@@ -159,9 +159,9 @@ export function About() {
 								materials - composition shingles, metal roofing systems, TPO
 								membrane, and modified bitumen roofs - ensuring your investment
 								protects your family for decades. Every Wills Point roofer on
-								our team is fully licensed, insured, and committed to delivering
-								the honest, quality craftsmanship your neighbors have trusted
-								for years.
+								our team is fully insured and committed to delivering the
+								honest, quality craftsmanship your neighbors have trusted for
+								years.
 							</p>
 						</div>
 						<Button asChild size="lg" className="bg-primary text-white">
@@ -190,12 +190,12 @@ export function About() {
 										<p className="text-gray-600">
 											Your family's safety and satisfaction come first, always.
 											Every roof repair and replacement in Wills Point, Terrell,
-											Forney, and Canton includes our written warranty, full
-											licensing verification, and comprehensive general
-											liability insurance. When you call Luna's Roofing LLC,
-											you're not just hiring a contractor - you're partnering
-											with East Texas neighbors who stand behind our work long
-											after the job is complete.
+											Forney, and Canton includes our written warranty and
+											comprehensive general liability insurance protection. When
+											you call Luna's Roofing LLC, you're not just hiring a
+											contractor - you're partnering with East Texas neighbors
+											who stand behind our work with full insurance coverage
+											long after the job is complete.
 										</p>
 									</div>
 								</div>

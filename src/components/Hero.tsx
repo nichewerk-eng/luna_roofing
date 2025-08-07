@@ -179,9 +179,9 @@ export function Hero() {
 							<div className="flex items-center space-x-2 md:space-x-3">
 								<Shield className="h-6 w-6 md:h-8 md:w-8 text-primary" />
 								<div>
-									<div className="text-base md:text-lg">Licensed</div>
+									<div className="text-base md:text-lg">Insured</div>
 									<div className="text-xs md:text-sm text-gray-300">
-										& Insured
+										& Bonded
 									</div>
 								</div>
 							</div>

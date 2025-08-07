@@ -23,7 +23,7 @@ export const TerrellRoofingPage = () => {
 		<>
 			<SEO
 				title="Terrell Roofer - Luna's Roofing LLC | Expert Roofing Contractor"
-				description="Top-rated Terrell roofing contractor. Professional roof repair, replacement & emergency services. Licensed & insured. Free estimates! Call (903) 340-9354"
+				description="Top-rated Terrell roofing contractor. Professional roof repair, replacement & emergency services. Insured & bonded. Free estimates! Call (903) 340-9354"
 				keywords="Terrell roofer, Terrell roofing contractor, roof repair Terrell TX, emergency roofing Terrell"
 				canonical="https://www.lunasroofingllc.com/terrell-roofing"
 				structuredData={structuredData}
@@ -84,11 +84,12 @@ export const TerrellRoofingPage = () => {
 									<div>
 										<h4 className="text-lg font-semibold mb-4 flex items-center">
 											<Shield className="h-5 w-5 text-primary mr-2" />
-											Licensed & Insured in Texas
+											Insured & Bonded in Texas
 										</h4>
 										<p className="text-gray-600 mb-4">
-											Fully licensed roofing contractor with comprehensive
-											insurance coverage for all Terrell roofing projects.
+											Fully insured roofing contractor with comprehensive
+											general liability coverage for all Terrell roofing
+											projects.
 										</p>
 									</div>
 

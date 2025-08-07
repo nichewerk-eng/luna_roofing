@@ -241,7 +241,7 @@ export function Contact() {
 										<p>• Kaufman, TX</p>
 									</div>
 									<p className="text-sm text-primary mt-3 font-medium">
-										Licensed Roofing Contractor Serving Van Zandt & Kaufman
+										Insured Roofing Contractor Serving Van Zandt & Kaufman
 										Counties
 									</p>
 								</div>

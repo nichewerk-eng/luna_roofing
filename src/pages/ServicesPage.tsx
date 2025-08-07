@@ -15,7 +15,7 @@ export function ServicesPage() {
 				</title>
 				<meta
 					name="description"
-					content="Complete roofing services in Wills Point, Terrell, Forney, Canton & Kaufman TX. Residential & commercial roofing, emergency repairs, maintenance, gutters. Licensed & insured roofers."
+					content="Complete roofing services in Wills Point, Terrell, Forney, Canton & Kaufman TX. Residential & commercial roofing, emergency repairs, maintenance, gutters. Insured & bonded roofers."
 				/>
 				<meta
 					name="keywords"

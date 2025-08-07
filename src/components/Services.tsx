@@ -26,7 +26,7 @@ const services = [
 			"TPO Membrane",
 			"Modified Roofs",
 			"Metal Roofing",
-			"Fully Licensed & Insured",
+			"Fully Insured & Bonded",
 		],
 		image: "/commercial_luna_roofing.png",
 		route: "/services/commercial-roofing",

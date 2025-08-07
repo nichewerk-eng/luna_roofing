@@ -90,9 +90,9 @@ const businessTypes = [
 const whyChooseCommercial = [
 	{
 		icon: Shield,
-		title: "Licensed & Bonded",
+		title: "Insured & Bonded",
 		description:
-			"Fully licensed commercial contractor with comprehensive bonding and insurance",
+			"Fully insured commercial contractor with comprehensive bonding and general liability coverage",
 	},
 	{
 		icon: Clock,
@@ -124,7 +124,7 @@ export function CommercialRoofingPage() {
 				</title>
 				<meta
 					name="description"
-					content="Professional commercial roofing in Wills Point, Terrell, Forney, Canton & Kaufman TX. TPO membrane, modified bitumen, metal roofing. Licensed commercial roofers. Free estimates."
+					content="Professional commercial roofing in Wills Point, Terrell, Forney, Canton & Kaufman TX. TPO membrane, modified bitumen, metal roofing. Insured commercial roofers. Free estimates."
 				/>
 				<meta
 					name="keywords"
@@ -136,7 +136,7 @@ export function CommercialRoofingPage() {
 				/>
 				<meta
 					property="og:description"
-					content="Expert commercial roofing solutions for East Texas businesses. TPO membrane, modified bitumen, metal roofing systems. Licensed, bonded, insured."
+					content="Expert commercial roofing solutions for East Texas businesses. TPO membrane, modified bitumen, metal roofing systems. Insured, bonded, professional."
 				/>
 				<meta property="og:type" content="service" />
 				<meta

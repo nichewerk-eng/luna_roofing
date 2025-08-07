@@ -48,9 +48,9 @@ const companyValues = [
 const whyChooseUs = [
 	{
 		icon: Shield,
-		title: "Licensed & Insured",
+		title: "Insured & Bonded",
 		description:
-			"Fully licensed contractor with comprehensive insurance coverage for your complete peace of mind.",
+			"Fully insured contractor with comprehensive general liability coverage for your complete peace of mind.",
 	},
 	{
 		icon: Award,
@@ -94,7 +94,7 @@ const serviceAreas = [
 
 const stats = [
 	{ number: "100%", label: "Customer Satisfaction" },
-	{ number: "Licensed", label: "& Insured" },
+	{ number: "Insured", label: "& Bonded" },
 	{ number: "24/7", label: "Emergency Service" },
 	{ number: "Premium", label: "Materials Only" },
 ];
@@ -109,11 +109,11 @@ export function AboutPage() {
 				</title>
 				<meta
 					name="description"
-					content="Learn about Luna's Roofing LLC, Wills Point's premier roofing contractor. Family-owned, licensed & insured, serving Terrell, Forney, Canton & Kaufman with integrity since day one."
+					content="Learn about Luna's Roofing LLC, Wills Point's premier roofing contractor. Family-owned, insured & bonded, serving Terrell, Forney, Canton & Kaufman with integrity since day one."
 				/>
 				<meta
 					name="keywords"
-					content="about Luna's Roofing LLC, Wills Point roofer, East Texas roofing contractor, family business roofing, licensed roofer Wills Point, insured roofing contractor"
+					content="about Luna's Roofing LLC, Wills Point roofer, East Texas roofing contractor, family business roofing, insured roofer Wills Point, bonded roofing contractor"
 				/>
 				<meta
 					property="og:title"

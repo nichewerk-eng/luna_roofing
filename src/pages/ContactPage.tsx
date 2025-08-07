@@ -13,7 +13,7 @@ export const ContactPage = () => {
 				</title>
 				<meta
 					name="description"
-					content="Contact Luna's Roofing LLC for free roofing estimates in Wills Point, Terrell, Forney, Canton & Kaufman TX. Call (903) 340-9354 or request online. Licensed & insured roofers."
+					content="Contact Luna's Roofing LLC for free roofing estimates in Wills Point, Terrell, Forney, Canton & Kaufman TX. Call (903) 340-9354 or request online. Insured & bonded roofers."
 				/>
 				<meta
 					name="keywords"
@@ -198,9 +198,9 @@ export const ContactPage = () => {
 						<div className="grid md:grid-cols-4 gap-8">
 							<div className="text-center">
 								<div className="text-4xl mb-4">🏆</div>
-								<h3 className="text-xl font-bold mb-2">Licensed & Insured</h3>
+								<h3 className="text-xl font-bold mb-2">Insured & Bonded</h3>
 								<p className="text-gray-300">
-									Fully certified roofing professionals
+									Fully insured roofing professionals
 								</p>
 							</div>
 							<div className="text-center">

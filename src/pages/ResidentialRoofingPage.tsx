@@ -197,7 +197,7 @@ export function ResidentialRoofingPage() {
 				</title>
 				<meta
 					name="description"
-					content="Expert residential roofing in Wills Point, Terrell, Forney, Canton & Kaufman TX. Roof replacement, repair, composition shingles, metal roofing. Licensed roofers. Free estimates."
+					content="Expert residential roofing in Wills Point, Terrell, Forney, Canton & Kaufman TX. Roof replacement, repair, composition shingles, metal roofing. Insured roofers. Free estimates."
 				/>
 				<meta
 					name="keywords"

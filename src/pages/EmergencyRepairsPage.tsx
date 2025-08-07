@@ -119,7 +119,7 @@ export function EmergencyRepairsPage() {
 				</title>
 				<meta
 					name="description"
-					content="Professional roof repair services in Wills Point, Terrell, Forney, Canton & Kaufman TX. Storm damage, leaks, wind damage. Available 24/7. Licensed roofing contractors."
+					content="Professional roof repair services in Wills Point, Terrell, Forney, Canton & Kaufman TX. Storm damage, leaks, wind damage. Available 24/7. Insured roofing contractors."
 				/>
 				<meta
 					name="keywords"
@@ -194,7 +194,7 @@ export function EmergencyRepairsPage() {
 							</div>
 							<div className="bg-white/10 backdrop-blur-sm p-4 rounded-lg">
 								<Shield className="h-8 w-8 mx-auto mb-2 text-blue-300" />
-								<div className="font-semibold">Licensed & Insured</div>
+								<div className="font-semibold">Insured & Bonded</div>
 							</div>
 						</div>
 					</div>
