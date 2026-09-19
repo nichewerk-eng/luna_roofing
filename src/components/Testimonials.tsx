@@ -44,9 +44,9 @@ export function Testimonials() {
 
 			<div className="relative container mx-auto px-4 z-10">
 				<div className="text-center mb-16">
-					<h1 className="text-3xl md:text-5xl lg:text-5xl font-bold leading-tight pb-4 text-primary">
+					<h2 className="text-3xl md:text-5xl lg:text-5xl font-bold leading-tight pb-4 text-primary">
 						What Our Customers Say
-					</h1>
+					</h2>
 					<p className="text-xl text-gray-600 max-w-3xl mx-auto">
 						Don't just take our word for it. See what your neighbors in Wills
 						Point, Terrell, Forney, Canton, and Kaufman have to say about their

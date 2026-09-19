@@ -140,9 +140,9 @@ export function Services() {
 
 			<div className="relative container mx-auto px-4 z-10">
 				<div className="text-center mb-16">
-					<h1 className="text-3xl md:text-5xl lg:text-5xl font-bold leading-tight pb-4 text-primary">
+					<h2 className="text-3xl md:text-5xl lg:text-5xl font-bold leading-tight pb-4 text-primary">
 						Our Roofing Services
-					</h1>
+					</h2>
 					<p className="text-xl text-gray-600 max-w-3xl mx-auto">
 						From emergency repairs to complete roof replacements, Luna's Roofing
 						LLC provides comprehensive roofing services throughout Wills Point,

@@ -64,9 +64,9 @@ export function About() {
 			<div className="container mx-auto px-4">
 				{/* Why Choose Us Grid */}
 				<div className="text-center mb-16">
-					<h1 className="text-3xl md:text-5xl lg:text-5xl font-bold leading-tight pb-4 text-primary">
+					<h2 className="text-3xl md:text-5xl lg:text-5xl font-bold leading-tight pb-4 text-primary">
 						Why Choose Luna's Roofing LLC?
-					</h1>
+					</h2>
 					<p className="text-xl text-gray-600 max-w-3xl mx-auto">
 						When it comes to protecting your most valuable asset, trust the
 						local roofing experts based in Wills Point, TX, proudly serving

@@ -147,9 +147,9 @@ export function Contact() {
 			<div className="container mx-auto px-4">
 				{/* Header */}
 				<div className="text-center mb-16">
-					<h1 className="text-3xl md:text-5xl lg:text-5xl font-bold leading-tight pb-4 text-primary">
+					<h2 className="text-3xl md:text-5xl lg:text-5xl font-bold leading-tight pb-4 text-primary">
 						Contact Us
-					</h1>
+					</h2>
 					<p className="text-xl text-gray-600 max-w-3xl mx-auto">
 						Ready to protect your home with Wills Point's most trusted roofing
 						contractor? Serving Terrell, Forney, Canton, and Kaufman with

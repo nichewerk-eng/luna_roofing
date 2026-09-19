@@ -67,9 +67,9 @@ export function Header() {
 								/>
 							</div>
 							<div>
-								<h1 className="text-2xl text-black font-bold">
+								<span className="text-2xl text-black font-bold">
 									Luna's Roofing LLC
-								</h1>
+								</span>
 								<p className="text-sm text-gray-600">
 									Quality Roofing You Can Trust
 								</p>
