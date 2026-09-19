@@ -39,9 +39,9 @@ const whyChooseUs = [
 	},
 	{
 		icon: Star,
-		title: "Top-Rated Reviews",
+		title: "Customer Feedback",
 		description:
-			"5 stars on Google with hundreds of verified reviews from happy Texas homeowners.",
+			"We invite homeowners to review current customer feedback and ask questions before choosing a contractor.",
 	},
 	{
 		icon: Wrench,
@@ -55,7 +55,7 @@ const stats = [
 	{ number: "Quality", label: "Materials" },
 	{ number: "Insured", label: "& Bonded" },
 	{ number: "Residential", label: "& Commercial" },
-	{ number: "100%", label: "Customer Satisfaction" },
+	{ number: "Free", label: "Estimates" },
 ];
 
 export function About() {

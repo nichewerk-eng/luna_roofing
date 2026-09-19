@@ -56,7 +56,7 @@ const whyChooseUs = [
 		icon: Award,
 		title: "Professional Experience",
 		description:
-			"Years of roofing excellence in the Dallas-Tyler area with hundreds of satisfied customers.",
+			"Roofing service for homeowners and businesses across the Dallas-Tyler area.",
 	},
 	{
 		icon: Users,
@@ -72,9 +72,9 @@ const whyChooseUs = [
 	},
 	{
 		icon: Star,
-		title: "Top-Rated Reviews",
+		title: "Customer Feedback",
 		description:
-			"5 stars on Google with many of verified reviews from happy Texas homeowners.",
+			"Review current customer feedback and speak with our team about your roofing questions.",
 	},
 	{
 		icon: Wrench,

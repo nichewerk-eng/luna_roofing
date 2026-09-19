@@ -161,8 +161,8 @@ export const ContactPage = () => {
 								<span className="block text-white">Roofing Estimate</span>
 							</h1>
 							<p className="text-xl md:text-2xl mb-8 opacity-90 leading-relaxed animate-fade-in-delay">
-								Join hundreds of satisfied customers in Wills Point, Terrell,
-								Forney, Canton, and Kaufman
+								Request a clear roofing estimate for your property in Wills Point,
+								Terrell, Forney, Canton, or Kaufman
 							</p>
 							<div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-delay-2">
 								<a
@@ -205,8 +205,8 @@ export const ContactPage = () => {
 							</div>
 							<div className="text-center">
 								<div className="text-4xl mb-4">⭐</div>
-								<h3 className="text-xl font-bold mb-2">5-Star Reviews</h3>
-								<p className="text-gray-300">Hundreds of satisfied customers</p>
+								<h3 className="text-xl font-bold mb-2">Customer Feedback</h3>
+								<p className="text-gray-300">Ask about recent local roofing work</p>
 							</div>
 							<div className="text-center">
 								<div className="text-4xl mb-4">⚡</div>

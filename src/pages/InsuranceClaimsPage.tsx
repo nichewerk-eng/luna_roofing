@@ -295,9 +295,9 @@ export function InsuranceClaimsPage() {
 								Our Proven Claims Process
 							</h2>
 							<p className="text-xl text-gray-600 max-w-3xl mx-auto">
-								We've successfully helped hundreds of East Texas families
-								navigate the insurance claims process. Here's our step-by-step
-								approach to maximizing your settlement.
+								We help East Texas property owners document visible roof damage,
+								understand the repair scope, and communicate clearly during the
+								claims process. Here is our step-by-step approach.
 							</p>
 						</div>
 

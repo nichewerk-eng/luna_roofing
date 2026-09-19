@@ -27,7 +27,7 @@ export function ServicesPage() {
 				/>
 				<meta
 					property="og:description"
-					content="Expert roofing services throughout East Texas. From emergency repairs to complete roof replacements. Licensed & insured. Free estimates."
+					content="Expert roofing services throughout East Texas. From emergency repairs to complete roof replacements. Insured and bonded. Free estimates."
 				/>
 				<meta property="og:type" content="website" />
 				<meta

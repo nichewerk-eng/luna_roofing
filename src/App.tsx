@@ -16,6 +16,7 @@ import { InsuranceClaimsPage } from "./pages/InsuranceClaimsPage";
 import { WillsPointRoofingPage } from "./pages/WillsPointRoofingPage";
 import { TerrellRoofingPage } from "./pages/TerrellRoofingPage";
 import { ForneyRoofingPage } from "./pages/ForneyRoofingPage";
+import { LocalRoofingPage } from "./pages/LocalRoofingPage";
 
 export default function App() {
 	return (
@@ -57,6 +58,8 @@ export default function App() {
 					/>
 					<Route path="/terrell-roofing" element={<TerrellRoofingPage />} />
 					<Route path="/forney-roofing" element={<ForneyRoofingPage />} />
+					<Route path="/canton-roofing" element={<LocalRoofingPage city="Canton" />} />
+					<Route path="/kaufman-roofing" element={<LocalRoofingPage city="Kaufman" />} />
 				</Routes>
 				<Analytics />
 				<Toaster position="top-right" richColors closeButton duration={5000} />
