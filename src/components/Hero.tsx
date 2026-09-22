@@ -12,6 +12,8 @@ import {
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { EMAILJS_CONFIG } from "../config/emailjs.config";
+import { track } from "@vercel/analytics";
+import { getLeadAttribution } from "../utils/leadAttribution";
 
 interface HeroFormData {
 	firstName: string;
@@ -64,6 +66,7 @@ export function Hero() {
 		}
 
 		try {
+			const leadSource = getLeadAttribution();
 			// Send email using EmailJS with Postmark integration
 			await emailjs.send(
 				EMAILJS_CONFIG.SERVICE_ID,
@@ -82,6 +85,11 @@ export function Hero() {
 				},
 				EMAILJS_CONFIG.PUBLIC_KEY
 			);
+
+			track("estimate_form_submitted", {
+				source: leadSource.utmSource,
+				campaign: leadSource.utmCampaign,
+			});
 
 			setFormStatus("success");
 			// Reset form

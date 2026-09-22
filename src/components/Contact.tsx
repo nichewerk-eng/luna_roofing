@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 import emailjs from "@emailjs/browser";
 import { EMAILJS_CONFIG } from "../config/emailjs.config";
+import { track } from "@vercel/analytics";
+import { getLeadAttribution } from "../utils/leadAttribution";
 import {
 	Card,
 	CardContent,
@@ -81,6 +83,7 @@ export function Contact() {
 		}
 
 		try {
+			const leadSource = getLeadAttribution();
 			// Send email using EmailJS with Postmark integration
 			await emailjs.send(
 				EMAILJS_CONFIG.SERVICE_ID,
@@ -99,6 +102,11 @@ export function Contact() {
 				},
 				EMAILJS_CONFIG.PUBLIC_KEY
 			);
+
+			track("estimate_form_submitted", {
+				source: leadSource.utmSource,
+				campaign: leadSource.utmCampaign,
+			});
 
 			setFormStatus("success");
 			// Reset form

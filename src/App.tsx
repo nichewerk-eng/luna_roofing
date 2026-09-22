@@ -1,6 +1,9 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { Analytics } from "@vercel/analytics/react";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import { getLeadAttribution } from "./utils/leadAttribution";
 import { Toaster } from "sonner";
 import Home from "./pages/Home";
 import { ContactPage } from "./pages/ContactPage";
@@ -18,10 +21,17 @@ import { TerrellRoofingPage } from "./pages/TerrellRoofingPage";
 import { ForneyRoofingPage } from "./pages/ForneyRoofingPage";
 import { LocalRoofingPage } from "./pages/LocalRoofingPage";
 
+function CaptureLeadAttribution() {
+	const location = useLocation();
+	useEffect(() => { getLeadAttribution(); }, [location.pathname, location.search]);
+	return null;
+}
+
 export default function App() {
 	return (
 		<HelmetProvider>
 			<Router>
+				<CaptureLeadAttribution />
 				<Routes>
 					<Route path="/" element={<Home />} />
 					<Route path="/contact" element={<ContactPage />} />
