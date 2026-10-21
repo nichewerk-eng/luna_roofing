@@ -1,6 +1,7 @@
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
 import { Phone, Mail, MapPin, Star } from "lucide-react";
+import { BBBSeal } from "./BBBSeal";
 
 export function Footer() {
 	const year = new Date().getFullYear();
@@ -17,7 +18,7 @@ export function Footer() {
 								<img
 									src="/luna_roofing_logo.png"
 									alt="Luna's Roofing LLC Logo"
-									className="h-12 w-auto"
+									className="h-12 w-auto brightness-0 invert"
 								/>
 							</div>
 							<div>
@@ -39,6 +40,9 @@ export function Footer() {
 									/>
 								))}
 							</div>
+						</div>
+						<div className="flex justify-center md:justify-start">
+							<BBBSeal />
 						</div>
 					</div>
 

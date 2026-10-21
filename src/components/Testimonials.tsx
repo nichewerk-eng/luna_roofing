@@ -1,6 +1,7 @@
 import { Card, CardContent } from "./ui/card";
 import { Avatar, AvatarFallback } from "./ui/avatar";
 import { Star, Quote } from "lucide-react";
+import { BBBSeal } from "./BBBSeal";
 
 const testimonials = [
 	{
@@ -62,6 +63,9 @@ export function Testimonials() {
 							))}
 						</div>
 						<span className="text-lg">5 Rating Reviews</span>
+					</div>
+					<div className="flex justify-center mt-6">
+						<BBBSeal />
 					</div>
 				</div>
 
