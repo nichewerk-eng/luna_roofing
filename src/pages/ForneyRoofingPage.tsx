@@ -169,7 +169,7 @@ export const ForneyRoofingPage = () => {
 					</div>
 				</section>
 
-				<Contact />
+				<Contact showBBBSeal />
 			</main>
 
 			<Footer />

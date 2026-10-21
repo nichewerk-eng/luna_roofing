@@ -180,7 +180,7 @@ export const WillsPointRoofingPage = () => {
 					</div>
 				</section>
 
-				<Contact />
+				<Contact showBBBSeal />
 			</main>
 
 			<Footer />

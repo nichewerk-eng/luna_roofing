@@ -159,7 +159,7 @@ export const TerrellRoofingPage = () => {
 					</div>
 				</section>
 
-				<Contact />
+				<Contact showBBBSeal />
 			</main>
 
 			<Footer />

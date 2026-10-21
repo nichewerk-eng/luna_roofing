@@ -39,7 +39,7 @@ export function ServicesPage() {
 			<Header />
 			<main>
 				<Services />
-				<Contact />
+				<Contact showBBBSeal />
 			</main>
 			<Footer />
 		</>
