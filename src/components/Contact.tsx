@@ -14,6 +14,7 @@ import {
 import { Input } from "./ui/input";
 import { Textarea } from "./ui/textarea";
 import { Label } from "./ui/label";
+import { BBBSeal } from "./BBBSeal";
 import {
 	Select,
 	SelectContent,
@@ -45,7 +46,12 @@ interface FormData {
 	description: string;
 }
 
-export function Contact() {
+interface ContactProps {
+	/** Show the BBB seal under the submit button (used on the dedicated /contact page). */
+	showBBBSeal?: boolean;
+}
+
+export function Contact({ showBBBSeal = false }: ContactProps) {
 	const [formStatus, setFormStatus] = useState<
 		"idle" | "submitting" | "success" | "error"
 	>("idle");
@@ -485,6 +491,12 @@ export function Contact() {
 											"GET MY FREE ESTIMATE"
 										)}
 									</Button>
+
+									{showBBBSeal && (
+										<div className="flex justify-center pt-2">
+											<BBBSeal className="border border-gray-200" />
+										</div>
+									)}
 								</form>
 							</CardContent>
 						</Card>

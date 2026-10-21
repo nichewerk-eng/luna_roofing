@@ -124,7 +124,10 @@ export const ContactPage = () => {
 							bestRating: "5",
 							ratingCount: "127",
 						},
-						sameAs: ["https://maps.app.goo.gl/T8yYyUQDhf5AYk6H6"],
+						sameAs: [
+							"https://maps.app.goo.gl/T8yYyUQDhf5AYk6H6",
+							"https://www.bbb.org/us/tx/wills-point/profile/gutters/lunas-roofing-llc-1075-28119960",
+						],
 					})}
 				</script>
 			</Helmet>
@@ -184,7 +187,7 @@ export const ContactPage = () => {
 					{/* Enhanced Contact Component Container */}
 					<div className="container mx-auto px-4">
 						<div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
-							<Contact />
+							<Contact showBBBSeal />
 						</div>
 					</div>
 				</main>
